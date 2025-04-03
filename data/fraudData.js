@@ -103,7 +103,7 @@ export const fraudData = {
       "user_authentication": [
         {
           "email": "admin@frauddashboard.com",
-          "password_hashed": "12345",
+          "password_hashed": "$2a$10$XYZ1234abcd$",
           "role": "Admin"
         },
         {
