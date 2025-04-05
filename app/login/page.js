@@ -24,13 +24,60 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-100">
-      <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-md w-96">
-        <h2 className="text-2xl font-bold mb-4">Login</h2>
-        {error && <p className="text-red-500">{error}</p>}
-        <input className="w-full p-2 mb-2 border rounded" type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
-        <input className="w-full p-2 mb-2 border rounded" type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
-        <button className="w-full p-2 bg-blue-500 text-white rounded" type="submit">Login</button>
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-100 to-indigo-200">
+      <form
+        onSubmit={handleSubmit}
+        className="bg-white p-12 rounded-3xl shadow-2xl w-full max-w-2xl"
+      >
+        <h2 className="text-4xl font-bold text-center text-indigo-700 mb-10">
+          Welcome Back 👋
+        </h2>
+
+        {error && (
+          <p className="text-red-500 text-base text-center mb-6">{error}</p>
+        )}
+
+        <div className="mb-6">
+          <label className="block mb-2 text-gray-700 text-lg font-medium">
+            Email
+          </label>
+          <input
+            className="w-full px-6 py-3 border border-gray-300 rounded-xl text-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            type="email"
+            placeholder="you@example.com"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+        </div>
+
+        <div className="mb-8">
+          <label className="block mb-2 text-gray-700 text-lg font-medium">
+            Password
+          </label>
+          <input
+            className="w-full px-6 py-3 border border-gray-300 rounded-xl text-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            type="password"
+            placeholder="••••••••"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
+        </div>
+
+        <button
+          className="w-full bg-indigo-600 text-white py-3 rounded-xl text-lg font-semibold hover:bg-indigo-700 transition duration-300"
+          type="submit"
+        >
+          Login
+        </button>
+
+        <p className="text-base text-center text-gray-500 mt-6">
+          Don&apos;t have an account?{" "}
+          <span className="text-indigo-600 hover:underline cursor-pointer">
+            Sign up
+          </span>
+        </p>
       </form>
     </div>
   );

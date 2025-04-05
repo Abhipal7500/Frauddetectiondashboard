@@ -11,7 +11,10 @@
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "chart.js": "^4.4.8",
+    "framer-motion": "^12.6.3",
+    "fraud-detection-dashboard": "file:",
     "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
     "next": "15.2.4",
     "next-auth": "^4.24.11",
     "postcss-import": "^16.1.0",
