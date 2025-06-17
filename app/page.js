@@ -9,6 +9,7 @@ export default function HomePage() {
       <h1 className="text-4xl font-bold mb-4">jhgkjg hgjhk</h1>
       <p className="text-gray-700 mb-6">Monitor and analyze fraudulent activities in real time.</p>
       <p className="text-gray-700 mb-6">Monitor and  fraudulent activities in real time.</p>
+    <h2>hi</h2>
       <button
         className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
         onClick={() => router.push("/login")}
