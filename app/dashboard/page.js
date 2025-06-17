@@ -26,13 +26,13 @@ export default function Dashboard() {
   };
 
   if (!data)
-    return <p className="text-center text-lg text-gray-700">Loading...</p>;
+    return <p className="text-center text-lg text-gray-700">Loadibkjbng...</p>;
 
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-3xl font-bold text-gray-900">
-          Fraud Detection Dashboard
+          Fraud Detection Dashboard lkhojn
         </h1>
        
         <button
