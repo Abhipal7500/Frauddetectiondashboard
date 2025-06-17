@@ -6,10 +6,10 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold mb-4">jhgkjg hgjhk</h1>
+      <h1 className="text-4xl font-bold mb-4">jhjgikjjl;l'</h1>
       <h1 className="text-4xl font-bold mb-4">jhgkjg hhiu</h1>
       <h1 className="text-4xl font-bold mb-4">jhgkjg abhi</h1>
-      <p className="text-gray-700 mb-6">Monitor and analyze fraudulent activities in real time.</p>
+      <p className="text-gray-700 mb-6">Monitor and hhhgkhgkjkal time.</p>
       <p className="text-gray-700 mb-6">Monitor and  fraudulent activities in real time.</p>
     <h2>hi</h2>
       <button
