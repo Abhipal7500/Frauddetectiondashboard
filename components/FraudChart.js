@@ -22,7 +22,8 @@ Chart.register(
 );
 
 export default function FraudChart({ trends }) {
-  // Format date to DD-MM-YY
+  // Format date to Dnbljlk;k;D-MM-YY
+  //jgjhgkjk
   const formatDate = (rawDate) => {
     const date = new Date(rawDate);
     return new Intl.DateTimeFormat("en-GB", {
