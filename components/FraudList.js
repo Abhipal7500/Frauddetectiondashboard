@@ -21,7 +21,7 @@ export default function FraudList({ apps, urls }) {
       </span>
     );
   };
-
+//jhkhlih jkbkjl'
   return (
     <div className="bg-white shadow-xl rounded-2xl p-6 sm:p-8 space-y-6">
       <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">🚨 Recent Fraud Detections</h2>
